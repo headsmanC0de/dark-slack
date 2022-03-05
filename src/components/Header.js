@@ -6,23 +6,21 @@ import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
-  return (
-	<HeaderContainer>
-			<HeaderLeft>
-				<AccessTimeIcon sx={{ color: 'white' }} />
-			</HeaderLeft>
+	return <HeaderContainer>
+				<HeaderLeft>
+					<AccessTimeIcon sx={{ color: 'white' }} />
+				</HeaderLeft>
 
-			<HeaderSearch>
-				<input placeholder='Search'/>
-				<SearchIcon sx={{ color: 'white' }} />
-			</HeaderSearch>
+				<HeaderSearch>
+					<input placeholder='Search' />
+					<SearchIcon sx={{ color: 'white' }} />
+				</HeaderSearch>
 
-			<HeaderRight>
-			  <HeaderQuestion sx={{ color: 'white' }} />
-				<HeaderAvatar sx={{ width: 28, height: 28, }} variant="rounded"/>
-			</HeaderRight>
-	</HeaderContainer>
-  )
+				<HeaderRight>
+					<HeaderQuestion sx={{ color: 'white' }} />
+					<HeaderAvatar sx={{ width: 28, height: 28, }} variant="rounded" />
+				</HeaderRight>
+			</HeaderContainer>
 }
 
 export default Header
