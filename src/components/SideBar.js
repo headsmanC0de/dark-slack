@@ -22,7 +22,7 @@ export default function SideBar() {
 	return (
 		<SidebarContainer>
 			<SidebarHeader>
-					<h3>MyBotgarage</h3>
+					<h3>Basement Lab</h3>
 					<CreateIcon />
 			</SidebarHeader>
 
@@ -49,8 +49,6 @@ const SidebarContainer = styled.div`
 	color: white;
 	flex: 0.2;
 	border-top: 1px solid var(--border-gray);
-	margin-top: 38px;
-
 
 	> hr {
 		margin: 10px 0;
